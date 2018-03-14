@@ -1,0 +1,21 @@
+{
+  "name": "hhabbous/simplest",
+  "description": "Micro PHP Framework build with Symfony Components.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Hatim HABBOUS",
+      "email": "hatim.habbous@orange.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Simplest\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/http-foundation": "^4.0",
+    "symfony/routing": "^4.0",
+    "symfony/http-kernel": "^4.0"
+  }
+}
